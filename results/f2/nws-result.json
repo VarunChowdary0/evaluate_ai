@@ -1,0 +1,116 @@
+{
+  "answers": [
+    {
+      "number": "1.a",
+      "question": "Describe the interaction between mail user agent (MUA), mail transfer agent (MTA), and mail delivery agent (MDA) in SMTP.",
+      "text": "SMTP: It is also known as Simple Mail Transfer Protocol. Through this protocol, we can transfer data. Mail User Agent (MUA) stores simple, more secured, step-by-step process. It transfers data. Mail Transfer Agent (MTA) is software that helps collect data from the user agent. It encrypts the data into cipher text. After encryption, the data becomes unreadable. The data is transferred by agents. The MUA decrypts the data. The agent ensures that the transferred data is secure. It protects against malware. Mail Delivery Agent (MDA) is responsible for the delivery of the mail to the recipient. After the transfer, the delivery agent checks the data and deletes the data from the receiver's system.",
+      "marks": 6,
+      "remark": "Good description of the roles and interactions of MUA, MTA, and MDA in SMTP, including data encryption/decryption and security aspects."
+    },
+    {
+      "number": "1.b",
+      "question": "Design a security enhancement to DNS to mitigate cache poisoning attacks and explain how it strengthens the resolution process.",
+      "text": "DNSSEC: It is also known as Domain Name System Security. This solves all cache poisoning problems. It uses a protocol like 'Zero Trust detection and protection'. DNSSEC detects all types of attacks. It acts as an outer layer to protect and prevent attacks, and knows everything that happens.",
+      "marks": 5,
+      "remark": "Correctly identifies DNSSEC as a solution for cache poisoning. Explains its role in protection, but the explanation of *how* it strengthens the resolution process (e.g., via digital signatures) is brief and conceptual rather than detailed."
+    },
+    {
+      "number": "2.a",
+      "question": "Explain the methods and challenges of detecting network intrusions in real time. What are the key components of a real-time intrusion detection system?",
+      "text": "As we face challenges to detect and protect. The developers use the latest detection and protection systems to protect the data. DoS: DoS is also known as Denial of Service. It's used for data protection. In this attack, the attacker floods queries to the server. The server overloads and crashes. We face many challenges to detect it in the network. Hackers and attackers create new threats. The server would slow down, the service, and decrease the client's experience. Key components (of real-time detection systems): The system should be able to identify the attacker before the attack. Effectiveness: The system should be more effective. Detection: Detect the attacker's complex methods.",
+      "marks": 4,
+      "remark": "Explains DoS as an example of an intrusion and the challenges. Lists some conceptual 'key components' (identify attacker, effectiveness, detection) but lacks standard IDS components like sensors, analysis engine, signature database, etc."
+    },
+    {
+      "number": "2.b",
+      "question": "Perform a detailed port scan using Nmap on a test virtual machine. Analyze the scan report and identify potential security risks.",
+      "text": "We can implement some tools like Port Scan. It is one of the most reliable techniques as it scans the port with different methods like Nmap. For example, it gives a detailed scan report and we can identify potential security threats through this technique. We can implement Port Active Scan. This actively performs a detailed scan to analyze the risks and detect potential security threats. We have to perform tasks. All results are given. We can perform vulnerability assessment. We use malware experts. We also use pen tests (penetration tests) to improve the security. We can test different types that help to detect our existing vulnerabilities before the website. We can also use automation tools that test multiple parameters. It helps to find out new attacks.",
+      "marks": 6,
+      "remark": "Clearly identifies Nmap and port scanning as a method to analyze risks and detect potential security threats. Mentions active scanning, vulnerability assessment, and pen tests. While it doesn't describe an actual Nmap command output or 'simulate' it, it explains the utility and process well."
+    },
+    {
+      "number": "3.a",
+      "question": "Elaborate about computer viruses. Explain the lifecycle of a computer virus.",
+      "text": "As Virus: In Computer Science, viruses are malicious code which steal or corrupt data and infect systems. Viruses are malware. Malware means malicious software. Viruses are malware which damages the computer and causes harm to the software. Therefore, Injection, Spreading, Data loss. A virus has several stages before the damage is caused. 1) Infection: A small code which installs malware is injected into the system. The code infects the whole system. 2) Spreading: After code injection, the code spreads across the user's system. It copies itself. The system code, and all other code, is corrupted. 3) Data Loss: After spreading, the data of the user is lost or stolen. The attacker... 4) Repeat: This process is repeated until all the data in the system is either lost or stolen. 5) Damage: The damage caused by the attacker is that the system is corrupted or lost or stolen. Remember that the virus... even small parts take over the system.",
+      "marks": 7,
+      "remark": "Comprehensive and accurate definition of a computer virus and its detailed lifecycle stages from infection to damage."
+    },
+    {
+      "number": "3.b",
+      "question": "Apply any two defensive programming techniques to secure a sample program against known exploits. Justify how each technique contributes to security.",
+      "text": "This technique is used by attackers to download from some websites. We can see this technique implemented by many attackers. But there is no complex interface for the user's experience. Prevent this technique by not downloading pirated software from unknown websites. Don't download pirated/cracked PDFs, games.",
+      "marks": 0,
+      "remark": "The answer provides general advice for users to avoid malware, not defensive programming techniques for securing a program. This does not address the question's core requirement."
+    },
+    {
+      "number": "4.a",
+      "question": "Elucidate how spyware and keyloggers compromise user privacy and system security?",
+      "text": "This technique is used by attackers. In this technique, the attacker clones the device or client and accesses all the data. Here, basically, the attacker clones the user's device. For example, the attacker can monitor your every move: He can see you, your texts, messages, files, etc.",
+      "marks": 7,
+      "remark": "Excellent explanation of how spyware/keyloggers compromise privacy by cloning devices and monitoring all user activity, including sensitive data like texts and files."
+    },
+    {
+      "number": "4.b",
+      "question": "Consider a vulnerable C program with a buffer overflow. Describe how an attacker could exploit it to gain shell access. Suggest code-level defenses that can be applied.",
+      "text": "Here the code injects a malicious payload. When the server is vulnerable, the attacker could inject malware into the computer. It points to the vulnerable part where it helps the attacker steal the data from the webpage. Code data that is stored (e.g., user data, password). The webpage stores the login details of users. We store cache, cookies, all user data and passwords are also stored in the system. To avoid this, we should implement defensive programming techniques. We can use OWASP. It develops all the vulnerabilities. The resolution of the process. Attackers use exploits. We have to use security options. The code of the process has to be secure, strong, and lengthy. We have to implement the technique.",
+      "marks": 6,
+      "remark": "Describes the exploitation of buffer overflow by injecting malicious payloads and stealing data. Mentions 'defensive programming techniques' and 'OWASP' as defenses, and concepts like 'secure, strong, lengthy code'. Lacks specific code-level defense examples (e.g., bounds checking, safe functions) but covers the general idea."
+    },
+    {
+      "number": "5.a",
+      "question": "Summarize HTTP header injection with an example. Elucidate how can such vulnerabilities be avoided?",
+      "text": "HTTP Header Injection means injecting malware into the header of a webpage. The header injector would inject malware into the header. Other vulnerabilities: SQL injection, XSS. HTTP header injection is when the attacker attacks and injects malware into the HTML code, which is the backbone of the webpage. So, it's easier for the attacker to access the entire structure of the webpage. The attacker can use the page to their desire. SQL Injection: Here the attacker injects malware into the database of the webpage. Most webpages use SQL-based databases to develop the webpage. Through this method, the attacker can access the data and inject the webpage. All the data will be under the control of the attackers.",
+      "marks": 4,
+      "remark": "Good summary of HTTP Header Injection and its impact. Provides related vulnerabilities like SQL Injection and XSS but does not explicitly provide an example of HHI. It also doesn't clearly explain *how* these vulnerabilities can be avoided, beyond implied defensive measures."
+    },
+    {
+      "number": "5.b",
+      "question": "Outline the role of the DOM in modern web applications. Write a small HTML page that uses CSS and JavaScript to create a navigation menu with two frames.",
+      "text": "DOM: In browsers, DOM helps us. It helps standardize websites. It stores the standards. It tells how the website should store the content and modules for users. HTML: body. CSS: stylesheet. JS: script. Header. Body. <title> Home </title> <title> About </title> <title> Contact </title> (Know) Script (Move). Console (More console_log displays about). Use <bone> in console_log (Correct). CSS class, id: Body is background Blue. Font size 24px. h4 font bold; Text color Red. td, th Green.",
+      "marks": 3,
+      "remark": "Outlines the conceptual role of DOM somewhat correctly (standardize websites, content/modules). Provides fragmented HTML, CSS, and JavaScript snippets, but these do not form a coherent 'navigation menu with two frames' as requested. The code snippets are basic and incomplete."
+    },
+    {
+      "number": "6.a",
+      "question": "Does HTTPS protect against client-side vulnerabilities like XSS or CSRF? Justify.",
+      "text": "HTTPS: It is one of the protocols. It saves the data and converts it into cipher text. By this, the data is encrypted. Any other person would not understand the meaning of it. XSS: Cross-Site Scripting. Used by an exploit-based attacker. In this attack, the attacker creates a webpage identical to the original webpage, where the user gets confused and enters their username and password. The control of the account goes to the attacker. CSRF: Cross-Site Request Forgery, an attack where the attacker tricks the user to collaborate with the webpage. We can easily avoid all such vulnerabilities. Use systems that secure their structure. As HTTPS (Hypertext Transfer Protocol Secure) is needed to adopt HTTPS, it encrypts all the data of HTTP. The user is more protected and secure.",
+      "marks": 4,
+      "remark": "Accurately defines XSS and CSRF. Correctly describes HTTPS's role in encrypting data during transit. However, it incorrectly implies that HTTPS *directly* protects against these client-side vulnerabilities. HTTPS encrypts communication, but XSS/CSRF exploit client-side logic/user trust, which HTTPS alone cannot prevent."
+    },
+    {
+      "number": "6.b",
+      "question": "Simulate a scenario where violating SOP could allow a malicious page to access sensitive user data.",
+      "text": "",
+      "marks": 0,
+      "remark": "No answer provided for this question."
+    },
+    {
+      "number": "7.a",
+      "question": "What is HTTP parameter pollution (HPP)? Describe how multiple parameters with the same name are handled.",
+      "text": "",
+      "marks": 0,
+      "remark": "No answer provided for this question."
+    },
+    {
+      "number": "7.b",
+      "question": "A shopping cart application allows users to update item quantities. An attacker modifies a request to set a negative quantity for an item. Describe how this could be exploited as a logic flaw and propose a solution to prevent it.",
+      "text": "",
+      "marks": 0,
+      "remark": "No answer provided for this question."
+    },
+    {
+      "number": "8.a",
+      "question": "Elucidate how browser fingerprinting and device fingerprinting techniques are used to identify and track users across different websites, even without traditional cookies.",
+      "text": "This process (browser/device fingerprinting) is a technique used by the attacker where the attacker steals data. The attacker steals the IP address. After identifying the address, the attacker hides in your system, pretends to be you. He can steal your data by pretending to be you. The attacker uses VPN, masks their real IP address.",
+      "marks": 4,
+      "remark": "Describes a general technique involving IP addresses, impersonation, and VPNs, which are elements related to tracking. However, it doesn't delve into specific browser or device fingerprinting techniques (e.g., canvas fingerprinting, font enumeration, WebGL, user agent strings beyond IP) used for persistent tracking without cookies."
+    },
+    {
+      "number": "8.b",
+      "question": "Inspect a website using browser dev tools and list third-party tracking scripts or pixels detected.",
+      "text": "We can use 'search in website'. Developers use web vulnerability assessment. We can detect bad-party (third-party) scripts. We can detect loading pixels. We can detect the security of the website. We can do all this by performing security and pen tests. We can test different types that help to detect our existing vulnerabilities before the website. We can also use automation tools that test multiple parameters. It helps to find out new attacks.",
+      "marks": 3,
+      "remark": "The answer discusses general web vulnerability assessment, including the detection of third-party scripts and pixels. However, it fails to specifically mention 'browser dev tools' as the method of inspection or simulate listing detected items, instead providing a conceptual overview of security auditing."
+    }
+  ]
+}

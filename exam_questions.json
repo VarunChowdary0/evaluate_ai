@@ -1,0 +1,116 @@
+{
+  "answers": [
+    {
+      "number": "1.a",
+      "question": "Explain the process of branching and merging in Git. What are the best practices for managing branches and resolving conflicts?",
+      "text": "La developi & real &old Pojects Le Ansb need Le0w^ to help eocL othex Qnd look Qut Tox eocL olhex Ulele deve lopv& %eal ERwe Prafect. Iy LoEe8 teom thexe oukl be moxe Quo5 lly checks tke Project UJou d be moxe v {ed Ond most InpoxtasHly the koxk lood eou ld Be dRRded 7 Qm Oun} coxk done by persov LOU 4 be deded Onond teow mates Alous tox Quesd pexSOl Woxk O khe Droject Some Led @nuisb -Oment LS requRed TRe 8 Gshexe okne deect Roxes COme &to ploce. Ike mest commoly used DIZEctozies Oxes 1) Sunl",
+      "marks": 2,
+      "remark": "The answer is incomplete and poorly written. It does not explain branching and merging in Git or best practices for managing branches and resolving conflicts.  The writing is difficult to understand due to OCR errors and poor grammar."
+    },
+    {
+      "number": "1.b",
+      "question": "Your team is struggling with maintaining consistency in infrastructure configurations across multiple environments. How would you implement infrastructure as Code (IaC) to address this challenge?",
+      "text": "SyA: Sun uses een dralizedl archetecku ~e. Llhzzk Ion$ LLot eue d pexSOw kho hos access Lbel d8eclory COi moke",
+      "marks": 1,
+      "remark": "The answer is incomplete and does not address the prompt. It mentions centralized architecture but doesn't explain how IaC would solve the problem of infrastructure consistency across environments."
+    },
+    {
+      "number": "2.a",
+      "question": "Discuss the key architectural differences between SVN and Git. How do these differences impact the way teams use these tools for version control and collaboration?",
+      "text": "chov&es kshek koutd be J€ Plected O actual codke / prodkuct Tkfs dvectoxy becomes heod ecle USben mulRle usex( &e ia use te eode _ 'Ihere 0 lot Gsork ILt Zuie haxd do test Soe test coses Iz axchileduxe . Sucldexly SusilcS 8 tooks Letaseen the Profedt ?uite hosd",
+      "marks": 1,
+      "remark": "The answer is incomplete and poorly written.  It does not compare the architectures of SVN and Git, nor does it explain how these differences impact team workflows. The writing is also hard to decipher due to OCR errors."
+    },
+    {
+      "number": "2.b",
+      "question": "A critical bug was introduced in the latest commit on the main branch. How would you use Git to identify the commit that introduced the bug and revert the changes?",
+      "text": "9Sal8 Gal uses de Cenbrolezed oxchitectuxe Wheh meqns ushen ka8 Uee Codle deecte 3f oqually cbnes lhe dSreclrd cohere dEu Col Gk E Oa Youx Projec+ and make ckaw8es Oh ?t Clene) cillout ksot Y1\"(8 tkot Some Obe CQh ca8e Your #deq.",
+      "marks": 1,
+      "remark": "The answer is incomplete and focuses on decentralized architecture instead of the requested Git commands for identifying and reverting a buggy commit."
+    },
+    {
+      "number": "3.a",
+      "question": "Discuss the key components and architecture of docker, including docker engine, docker hub, docker images, containers, networks, and volumes.",
+      "text": "Oh Ye8, Rcko Osilhou} ackualk mal8& covss ox8icl code Mis 'mokes WOYe num Bey o choices to ekolee chosse Ohe %a cohrch moYe USv {gexdty J€ lble Qhd ePfefeut Rdea #ou oll te ?deas teQn1 mem pevS Beloze depled\" \"8 Ol #e web- One Col cOpoxa Rvely fed eosd to Scs sL tools Fox lex 51 Caxol 01d (ollabo coll eborete kitl olex tecks eosdy u88 Get Gver all boll teckk< hve #e8 Ouh odloc toges Od diodian Je8es. LF deped S O^ lhe usex heeck ald type @sexs @se cohil tech nolejd Aed Prelex. Botl have He3 Oesl eRnique ax &lelectuxes both houe Ae& Oul Ia' 6so4 d88",
+      "marks": 2,
+      "remark": "The answer is partially correct but poorly written and hard to understand. It mentions some Docker components but lacks a clear explanation of the architecture.  The writing suffers from OCR errors and poor sentence structure."
+    },
+    {
+      "number": "3.b",
+      "question": "Your team is migrating an existing monolithic application to microservices architecture using docker containers. Outline the steps and considerations for breaking down the monolith into smaller, independently deployable containers.",
+      "text": "39) Dockexe Anss dokex tool 0 Iype 0 Softwaxe thiah used fx euerol; ContaRexs. TRese conta?exs ore Hev used to Scsitcl SexLeees E8 Miqoo Rq O1 ex? Jea MOho kl?t  opplica 1a1 miYO ReU tes usi } docLex COLx laRers Tese Coutoeeys Cal Q lso Be ugea to depled Code: TRese cOhtolnexs can sloxe dolos ek . Mexe Qxe 0Cm1bus COFOueuts #e} Oxe Preseza} dokex. (ed QYe; Docker @n8ie Dockey hub Dbckex tMoqes Couo?exs Aleloxks Qnd lolubes:",
+      "marks": 2,
+      "remark": "The answer is partially correct but incomplete.  It mentions Docker and containers but fails to address the steps and considerations of migrating a monolith to microservices using Docker."
+    },
+    {
+      "number": "4.a",
+      "question": "Describe the security considerations and best practices for docker containers and dockerized applications, covering topics such as container isolation, image security, network security, and vulnerability management.",
+      "text": "Docker eyaiea Te dockex eusie aclually #Le moe Poxl 0 #e docLer Here Yhe mo2 Code Glel does",
+      "marks": 1,
+      "remark": "The answer is extremely brief and incomplete. It barely touches upon Docker security and lacks any discussion of best practices."
+    },
+    {
+      "number": "4.b",
+      "question": "You need to ensure high availability and fault tolerance for a Docker Swarm cluster hosting critical applications. Outline the strategies and tools you would use to achieve these objectives.",
+      "text": "eli the poxresses 0 dockev Prese } 24 Qcts aS heex$ to Ihe docker: Dsakez hob: Docker hub IS Ol^ Snpostoxt CoFoeu} 8 Ie dockex - Tz (skeve all #e data stoxed . hle Cal Qlso xetRe Ike cloxed cle heve Ockez 123es8 Deckex Ca ecteally stoe Rvo8 < bd us?a dockez MQ 2s ane CQl stoxe txonster Qd shoxe Iajes Us88 dckex Iqjs:",
+      "marks": 1,
+      "remark": "The answer is insufficient. It mentions Docker Hub and image storage but doesn't address strategies and tools for high availability and fault tolerance in a Docker Swarm cluster."
+    },
+    {
+      "number": "5.a",
+      "question": "Discuss the process of creating and managing Chef cookbooks. Include the steps involved in writing recipes, defining attributes, and testing cookbooks before deployment.",
+      "text": "Lenta 8est 8 4 Cola torley U< lke JQ flled esel delo Ales . These Kles COw be sloed donslered ad acessed Gskew Cuey hee dd 42v8 coutar ezs dockex",
+      "marks": 0,
+      "remark": "The answer is completely irrelevant to the question."
+    },
+    {
+      "number": "5.b",
+      "question": "Explain the role of chef in cloud provisioning and configuration management. Discuss how Chef automates infrastructure deployment and ensures consistency across environments.",
+      "text": "Aletoxks Q1d Uoluwes ? Aletoxks are type meckuh1 Pd cohil cckex Fles /coutofexs (on be lronsfexed Ubluwes Oxe colleck&w cenlaiiexx] Gles pesen docker ehaL Qre oll slxed legelkez Aewezoa volumes Caloe Sone Silor ~e lted + ond Aks",
+      "marks": 0,
+      "remark": "The answer is completely irrelevant to the question."
+    },
+    {
+      "number": "6.a",
+      "question": "Compare EC2 reserved instances, on-demand instances and spot instances in terms of pricing models, cost optimization strategies and use cases for each type.",
+      "text": "034& 26> Iheve 0v2 merd Cseo ~icok& Aws? Y Cxikal bu8 E Buf Le W ) prelered wad kould be lhouah 'boxleg Od meae& Red 43 #ot 68 Rxxs} 0 daede eoah Lona( Rckidvalty Q1d cecl eoch bronch de;cually: Afler cecki& Geu Rd Ql exox Bzowch Men 86 to tkat browcl Qnd cede Hhe code R+o #frezesd Sezemexds Aloco ckeck eec @d eue",
+      "marks": 0,
+      "remark": "The answer is completely irrelevant to the question."
+    },
+    {
+      "number": "6.b",
+      "question": "List the advantages of deploying applications in docker containers. Discuss how docker simplifies application packaging, dependency management, and deployment across different environments.",
+      "text": "Segewets RdevidalH Ycu CQL use kskete box tes 4va 0 Af ler (3-48v8 Hke QxYoy fx He exxo Nlowo rul LLet bxacl R dudua Ily and Auv check exkors TC ho eroxs O*€ Ruvd #el bd aub^ Gsll Qvolex broncl lie #a < lol mer 8 € Ohe Oh bxoncl Ike code Ond Ju1 #e Coce Aflex Ibat Colnbie 0 L6 brouches ad xUh ke cod: Ilz leva' Wa Pxocest But shouss hous eocl Qu eued elewet He Codg 650.13-",
+      "marks": 0,
+      "remark": "The answer is completely irrelevant to the question."
+    },
+    {
+      "number": "7.a",
+      "question": "Outline the process of creating a manual test plan for a complex web application. What key elements should be included, and how would you ensure the plan is thorough and effective?",
+      "text": "MR? helos the deuelopex updale #e Ooxts Bxenches Code elexe eve?d I2ss&eeid ~equed Lt 0 lso Leoches lessov Rox devel Iqey hou +e ellae Code Qw cleck Houx Co d2 Yox %u tuxe Projects Aa #e deveC 46i84 lopey eqrhs lessov Ike Code shou ld Le 0 rowv zed ond conhewts Qxe he= exle d eved cshale loops and_e-ekke_slaksel",
+      "marks": 0,
+      "remark": "The answer is completely irrelevant to the question."
+    },
+    {
+      "number": "7.b",
+      "question": "How would you develop a comprehensive test plan to ensure full coverage of a new feature in your application, including edge cases and potential failure points?",
+      "text": "51: hle '@se ckud Proion88, @d caxala- uza kwa mQuq 8euenf crle [cxeale Qnd more dhef cooL books  kle Use dou sealices lete AWs (Alozol kle b Kxvzes) , €c2 e4 Asscere lov cloud soqfe Qnd Won@ 8enesd:",
+      "marks": 0,
+      "remark": "The answer is completely irrelevant to the question."
+    },
+    {
+      "number": "8.a",
+      "question": "Mention the key considerations when creating docker containers for automated testing. Discuss how you would handle dependencies and configuration.",
+      "text": "hle @se doctexs 40 cxle Se Gpes dele atlbade s Cnd tes Ks ccokbecks beloxe deplosrek hnxle Use CD oY Goxtenous &pley wevd to outowete lhe dplqol Inet Deess Kle }rd Auhaele ALe depley hel} hove less huwou Awlexte` 1 proleys Ron Mr becouse Iexe huwQw extezvexkbl lhere Usould 6e bouwd &A464 to be €p*0J Llile &pkynedt To 68d?re le k 6P CxaodS Use to atoale tt OL de plaa sex t Proless bul 0 (( tes Ra Pxoces lo: seps Ceate D novo8e Cle ? acckkak",
+      "marks": 0,
+      "remark": "The answer is completely irrelevant to the question."
+    },
+    {
+      "number": "8.b",
+      "question": "Describe how you would implement automated integration tests for a microservices architecture. What tools would you use, and how would you ensure data consistency across tests?",
+      "text": "Ile cse dockes cowle? ney lox- 1 Cxea le Mkhev Gse USe osxl 72 /pes: Hese Co Faze $ 3) We delee all HLe Use esel cyecki& Hakles Ce docker hle US e Axere-} Fa Pes tes 18 1 Yes} Out Cook bsoc be fox teplcylne 4 TRese dsffasewl Iupe 6l tesle& Ore ? 48 Llhate box tes ka: @e> type tes R-a LS dowe check Lhe Code 0l 4 ceck exxors Me eode_",
+      "marks": 0,
+      "remark": "The answer is completely irrelevant to the question."
+    }
+  ]
+}

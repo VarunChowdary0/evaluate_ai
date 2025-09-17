@@ -1,0 +1,74 @@
+{
+  "answers": [
+    {
+      "number": "1.a",
+      "question": "Describe different types of attributes that can be found in a dataset. Provide examples for each type.",
+      "text": "Types of Attributes:\n1. Refer Attributes: It's unique ID used to identify every element.\n2. Required attribute: It's an attribute which is required to be filled when you enter your data.\n3. Temporal attribute: It is an attribute which holds temporary values which on demand update the value of the elements. For example: count for occurrence.",
+      "marks": 2.5,
+      "remark": "Did not describe standard attribute types (nominal, ordinal, interval, ratio). Descriptions provided are about attribute characteristics or constraints (like identifier, mandatory, time-varying), not fundamental types. No examples given for standard types."
+    },
+    {
+      "number": "1.b",
+      "question": "A healthcare organization wants to predict patient readmission rates. Given a dataset of patient records, describe the process of building a predictive model. Which data mining techniques would you employ? Elucidate.",
+      "text": "We should employ the clustering technique as there would be more and more number of patients to organize. We can form clusters of patients, etc., like critical patients. This allows the doctors and staff to easily recognize and also categorize patients. We can also categorize patients based on the relevant patients who have had similar symptoms. We can predict the regular checkups of patients.\n\n[Student also included a schema diagram meant for Q3b here, which is irrelevant for this question.]",
+      "marks": 1,
+      "remark": "Misinterpreted the question by focusing on clustering for organization/categorization rather than the prediction of readmission rates. Did not describe the general process of building a predictive model (e.g., data preprocessing, model training, evaluation) or primary prediction techniques like classification/regression which are typically used for this task."
+    },
+    {
+      "number": "2.a",
+      "question": "What is data cleaning? List and explain the different ways of handling missing values.",
+      "text": "Data Cleaning:\nData Cleansing is the process where all the impurities present in the dataset are removed. Impurities like missing values, and some values that are not solid are removed in this process. These impurities can cause the dataset to not work. So, companies always clean the data before they store the data into their server.\n\nWays of handling missing values:\n1. If there are few null values, companies simply delete the null values in the dataset.\n2. Avoid repetition or make it unique (related to duplicates, not missing values).\n3. Prevent some data from entering the dataset.\n4. Some data found in the system would be confused. So, companies prefer uniqueness in each entry.\n5. Companies can use both old and new data.",
+      "marks": 3,
+      "remark": "Provided a good definition of data cleaning. For handling missing values, only 'deletion' was clearly described. Other points were either garbled, vague, or related to handling duplicates/uniqueness rather than missing values (e.g., imputation methods like mean, median, mode were not mentioned)."
+    },
+    {
+      "number": "2.b",
+      "question": "Assume that the value of the income attribute are 2000,3000,4000,6000 and 10,000. The income has to be mapped to the range [0.0,1.0]. Do min-max normalization, z-score normalization and decimal scaling for income attribute.",
+      "text": "Given data: 2000, 3000, 4000, 6000, 10000.\nMean = (2000+3000+4000+6000+10000) / 5 = 25000 / 5 = 5000.\n\nDifferences from mean:\n-3000 (for 2000)\n-2000 (for 3000)\n-1000 (for 4000)\n1000 (for 6000)\n5000 (for 10000)\n\nSum of absolute differences = 3000 + 2000 + 1000 + 1000 + 5000 = 12000.\nMAD (Mean Absolute Deviation) = 12000 / 5 = 2400.\n\nZ-Score Normalization:\n[Student's text is garbled, attempts to calculate SD but ends up with incorrect values like 28900000 and x'' = 5366.56, no normalized values provided]\n\nMin-Max Normalization:\n[Student's text is garbled, shows 2000/5000 and a final value 1' = 1.6, no normalized values provided]\n\nDecimal Scaling: [Not attempted by student]",
+      "marks": 2,
+      "remark": "Correctly calculated the mean. Attempted Mean Absolute Deviation (MAD) calculation with a minor error in summing absolute differences, but MAD is not used for Z-score normalization. Failed to correctly calculate Standard Deviation, Min-Max normalization, and Z-score normalization. Decimal scaling was not attempted."
+    },
+    {
+      "number": "3.a",
+      "question": "Compare and contrast three OLAP server architectures: MOLAP, ROLAP, and HOLAP. Discuss their advantages, disadvantages, and suitable use cases for each architecture.",
+      "text": "OLAP is the Online Analytical Processing. It helps us to query and analyze data warehouse data. It is used for large datasets. It is used to store data in a data warehouse. There are different types of OLAP:\n\n1. MOLAP: It is used to store data rigidly. It is level by level. MOLAP uses a multi-level approach to analyze data.\n2. ROLAP: It uses relational database to store it. It does not contain any levels. It connects to the database for the elements.\n3. HOLAP: It is a hybrid type. It uses both ROLAP and MOLAP to analyze data.",
+      "marks": 4.5,
+      "remark": "Identified the core concepts of MOLAP (rigid/multi-level), ROLAP (relational database), and HOLAP (hybrid). However, explanations were brief and lacked specific details on advantages, disadvantages, comparative analysis, and suitable use cases as explicitly required by the question."
+    },
+    {
+      "number": "3.b",
+      "question": "Suppose a data warehouse consists of three dimensions time, doctor and patient and two measures count and charge, where charge is the fee that a doctor charges a patient for a visit. i) Enumerate three classes of schemas that are popularly used for modelling data warehouses. ii) Draw a schema diagram for above data warehouse using schema classes listed in (i).",
+      "text": "i) Three schemas popularly used to build data warehouses are:\n1. Star schema: It explains how the dataset works. It can add more columns and reduce the columns from tables.\n2. Snowflake schema: It can decrease sides and columns.\n3. Fact schema: It forms equal on each side.\n\nii) Schema diagram:\nDoctor (ID, Name)\nFee (Charge) --> [Link]\nPatient (ID, Name, Disease)\n\n[The student drew a simple diagram with 'doctor', 'Fee', and 'patient' connected, with attributes for each. It looks like a relational join rather than a star/snowflake schema.]",
+      "marks": 1,
+      "remark": "For part (i), two correct schema types (Star, Snowflake) were named, but their descriptions were incorrect. 'Fact schema' is not a standard schema type. For part (ii), the schema diagram provided is not a valid data warehouse schema (Star or Snowflake) for the given dimensions and measures; it's more like a simplified ER diagram and misses the crucial 'Time' dimension entirely."
+    },
+    {
+      "number": "5.a",
+      "question": "Write about decision tree induction with an algorithm for generating decision tree from training tuples.",
+      "text": "Decision Tree where all the branches of the tree are present. The tree is generated based on various tuples which are used to generate the decision tree. Steps to generate decision tree:\n1. Step 1: To organize by order.\n2. Step 2: To break down each tuple and know the values of each element.\n3. Step 3: To choose either top-down or bottom-up approach to construct the tree.",
+      "marks": 1,
+      "remark": "Provided only a very high-level and vague description of decision trees. Failed to outline a proper algorithm for decision tree induction, missing key concepts such as attribute selection measures (e.g., Information Gain, Gini index), splitting criteria, handling of different attribute types, and recursive partitioning."
+    },
+    {
+      "number": "5.b",
+      "question": "Construct FP tree and find out frequent patterns for the following transaction data given in Table 1. Assume minimum support count as 3.",
+      "text": "Given transactions:\nT1 {E, K, M, N, O, Y}\nT2 {D, E, K, N, O, Y}\nT3 {A, E, K, M}\nT4 {C, K, M, U, Y}\nT5 {C, E, I, K, O, O}\n\nMinimum Support Count = 3.\n\nItem Counts:\nK: 5\nM: 3\nN: 2\nO: 4 (Student's count, actual is 3)\nY: 3\nE: 4\n\nFrequent items (support >= 3): K(5), E(4), O(4), M(3), Y(3) [Using student's O count]\nF-list (sorted by frequency, descending): K, E, O, M, Y\n\nFP-Tree Construction:\nNull\n|-- K (5)\n    |-- E (3)\n        |-- O (2)\n            |-- M (1)\n            |-- Y (1)\n    |-- M (1)\n        |-- Y (1)\n    |-- O (1)\n\nFrequent Patterns: K,E,O,K Y, K,I,O Y, K,e,M, KM V, K,E,qo [These are garbled and unclear, not actual frequent patterns]",
+      "marks": 3,
+      "remark": "Correctly listed initial item counts (with one error for 'O' but it still met min support). Filtered based on min support and ranked items. However, the constructed FP-tree structure and the counts on the nodes are incorrect. The derivation and listing of frequent patterns are also unclear and incorrect."
+    },
+    {
+      "number": "7.a",
+      "question": "Mention different types of data used for cluster analysis. List and explain the typical requirements of clustering in data mining.",
+      "text": "The student's answer is largely garbled and incoherent, describing generic clustering steps and methods rather than specific data types or requirements.\n\nCleaned text (best effort):\n\"To perform clustering, a collection of objects are grouped which have similar characteristics.\nSteps involved: First step is to have symbolic data in order. Second step is to process to form clusters. Clusters can be formed by various types, some of them are k-means, k-medoids, density-based.\nAfter selecting the process, we apply it for clusters. We process all the data present in the given data.\nWe apply the process, for example, k-means clustering. In this clustering, we cluster the data based on similarity and the distance of the data, and check if the elements are assigned to the cluster that are closest to the cluster center or not.\nFor cluster analysis, we have different types of data which we analyze the clusters.\nMethods used: Partitional methods (like k-means based on distance).\nEvaluation: We check on what type of clusters are formed. We check the quality of the clusters.\nMulti-level hierarchical method: We decide clusters based on levels.\"",
+      "marks": 0,
+      "remark": "Did not address the question about different types of data used for cluster analysis (e.g., numerical, categorical, mixed) or the typical requirements of clustering in data mining (e.g., scalability, arbitrary shapes, noise tolerance). The answer provided was a confused explanation of clustering steps and methods."
+    },
+    {
+      "number": "7.b",
+      "question": "Consider the points A1(2, 10), A2(2, 5), A3(8, 4), B1(5, 8), B2(7, 5), B3(6, 4), C1(1, 2), C2(4, 9). Assume that Euclidean distance is used and the initial centers of the clusters are A1,B1 and C2. The distance function is Euclidean distance. Suppose initially we assign A1,B1, andC1as the center of each cluster, respectively. Use the k-means algorithm to show only i) The three cluster centers after the first round of execution. ii) The final three clusters.",
+      "text": "Given points: A1(2,10), A2(2,5), A3(8,4), B1(5,8), B2(7,5), B3(6,4), C1(1,2), C2(4,9).\nInitial Centers: A1(2,10), B1(5,8), C2(4,9).\n\nRound 1: Distance Calculation and Assignment (based on student's written distances):\n| Point | Dist to C1 (2,10) | Dist to C2 (5,8) | Dist to C3 (4,9) | Student's Assignment |\n|-------|-------------------|------------------|------------------|----------------------|\n| A1(2,10) | 0                 | 3.605            | 8.062 (error: should be 2.236) | Cluster 1 (A1)       |\n| A2(2,5)  | 5.0               | 4.242            | 3.462 (error: should be 4.472) | Cluster 3 (C2)       |\n| A3(8,4)  | 8.485             | 5.0              | 7.280 (error: should be 6.403) | Cluster 2 (B1)       |\n| B1(5,8)  | 3.605             | 0                | 1.21 (error: should be 1.414) | Cluster 2 (B1)       |\n| B2(7,5)  | 7.071             | 3.605            | 6.103 (error: should be 5.0)  | Cluster 2 (B1)       |\n| B3(6,4)  | 7.21              | 4.123            | 5.385            | Cluster 2 (B1)       |\n| C1(1,2)  | 8.062             | 7.211            | 7.615            | Cluster 2 (B1)       |\n| C2(4,9)  | 2.256 (error: should be 2.236) | 1.414            | 7.615 (error: should be 0)  | Cluster 2 (B1)       |\n\nStudent's Clusters (Round 1 based on their assignments):\nCluster 1: {A1(2,10)}\nCluster 2: {A3(8,4), B1(5,8), B2(7,5), B3(6,4), C1(1,2), C2(4,9)} [Based on values they used for averaging on Page 3]\nCluster 3: {A2(2,5)}\n\ni) Three Cluster Centers after the first round of execution (Student's calculated):\nC1: (2,10) [Correct for Cluster 1, based on A1(2,10)]\nC2: (6,6) [Correct for student's assigned Cluster 2: (8+5+7+6+1+4)/6 = 31/6 -> approx 5.16, and (4+8+5+4+2+9)/6 = 32/6 -> approx 5.33. Student calculated (6,6) using the 5 points A3, B1, B2, B3, C2 (from Page 3, not C1 as in their assignment list on Page 2). This is inconsistent but results in (6,6).]\nC3: (1.5,7) [Incorrect. Student states 'Az G' which seems to imply A2(2,5) and C1(1,2). (2+1)/2, (5+2)/2 = (1.5, 3.5), not (1.5,7).]\n\nRound 2: Distance Calculation and Assignment (based on student's flawed Round 1 centers):\nNew Centers: C1(2,10), C2(6,6), C3(1.5,7)\n[Student recalculates distances, many of which are incorrect, and reassigns points]\n\nStudent's Clusters (Round 2 based on their assignments):\nCluster 1: {} (Empty)\nCluster 2: {A3, B1, B2, B3}\nCluster 3: {A1, A2, C1, C2}\n\nStudent's New Centroids (Round 2):\nC1: (3, 9.5) [Unclear how derived from an empty cluster or A1 assigned to C3]\nC2: (6.5, 5.25) [Correct for student's assigned Cluster 2]\nC3: (6.5,7) [Unclear]\n\nSubsequent Rounds (Round 3, 4) with similar calculation and assignment errors. Student declares `Final Clusters are:`\nii) The final three clusters (Student's declared):\nCluster 1 = {A1(2,10), B1(5,8), C2(4,9)}\nCluster 2 = {A3(8,4), B2(7,5), B3(6,4)}\nCluster 3 = {A2(2,5), C1(1,2)}",
+      "marks": 3,
+      "remark": "Demonstrated understanding of the k-means algorithm steps (distance calculation, assignment, centroid update). However, there are numerous arithmetic errors in distance calculations and centroid updates from Round 1 onwards. This led to incorrect cluster assignments at each step and thus incorrect intermediate and final cluster centers/compositions."
+    }
+  ]
+}

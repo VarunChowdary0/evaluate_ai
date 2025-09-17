@@ -1,0 +1,74 @@
+{
+  "answers": [
+    {
+      "number": "1.a",
+      "question": "Mention the main characteristics of conventional software performance. Demonstrate in detail about the evolution of software economics.",
+      "text": "Software performance. To calculate and measure software performance, we use the correct method. We also calculate the correctness. Correctness: It is the assurance of the software that the output of the code should be correct if the inputs are given. Robustness/Effectiveness: Effectiveness is an important characteristic of good software. It assures the software is effective and solves the given problem. Efficiency: It is the most important characteristic to measure software performance. Software is efficient when the time and space complexity of the code is less. Or else, there is complexity. The complexity can be fixed. For tolerance. It is a property which says if we test the software, it is reliable. Software economics has evolved separately. We can use COCOMO project to predict the exact number of days it will take to build software. It makes the companies manage resources. COCOMO is a quick model to develop software and a quick tool for software development.",
+      "marks": 3.5,
+      "remark": "Identified some relevant characteristics of software performance (Correctness, Robustness/Effectiveness, Efficiency). However, the explanation for 'evolution of software economics' was very minimal and only briefly mentioned COCOMO without discussing the broader historical context or trends in software economics."
+    },
+    {
+      "number": "1.b",
+      "question": "Explain briefly about the pragmatic cost estimation. How does pragmatic cost estimation differ from theoretical models?",
+      "text": "We use different types of tools to calculate and reduce the cost. The theoretical model has fixed steps and rules. These rules are strict theoretical models. These models provide the flexibility to check how and where the user wants. It does not have a structure and can be used to decrease costs and increase efficiency.\nProcess Automation is the best. The outcome is due to automation and ready-made experience. Automation can develop software. It means here the AI tools could be used and here some tools that will be able to code. It decreases the cost and improves the productivity. Process automation also helps us to improve the product's quality. 1) Reduces errors. 2) Reduces costs.",
+      "marks": 0.5,
+      "remark": "The answer largely failed to explain pragmatic cost estimation. While it briefly hints at differences from theoretical models (fixed steps vs. flexibility), it doesn't elaborate meaningfully. The second part of the answer diverged significantly into process automation, which is irrelevant to the question."
+    },
+    {
+      "number": "2.a",
+      "question": "Outline the core principles of modern software management. Discuss peer inspections and their roles in quality assurance.",
+      "text": "1) Very good quality 2) Generated product 3) Extended life time, guaranteed. Also, the faults are detected quickly. As it is automated, it needs less human effort. Modern project management also has some drawbacks. As automation detects errors, it helps reduce the cost. We use automatic tools. These tools are completely automated and help reduce the cost. It also reduces the faults and errors.\nModern software management comes with: 1) Reduce human errors: Most of the software can be developed due to less human interference and less errors. Less human, more confident. The developers are less experienced and have less knowledge, and more errors. 2) Quality: People spend extra for quality. So companies have to improve the quality of their product. Very good quality plays a very important role. Quality checks are performed by testers who test the code. These testers check the output. This ensures that the code is safe and secure. Errors are detected and corrected. This improves the quality of software. Quality is also used for the last check of the output.",
+      "marks": 2.5,
+      "remark": "Identified some benefits related to modern software management (reducing human error, importance of quality). However, the answer did not clearly outline 'core principles' of modern software management. More importantly, it completely missed discussing 'peer inspections' and instead described general testing activities for quality assurance."
+    },
+    {
+      "number": "2.b",
+      "question": "Enlist five strategies to improve software economics. How can team effectiveness be improved in a software project?",
+      "text": "Some of the strategies to improve software economics are: 1) Cost Control: It is one of the basic strategies to measure the current costs and to save it in line. If we are able to control the cost, we can easily take more and more projects. 2) Time Management: The time spent on the specific project is another strategy. The time spent on the project. We can calculate the time before starting the project and calculate it for the cost. It will allocate the resources required for the project and for that cost. It will control the cost for other projects and also helps to develop new projects. 3) Resource Management: This is one of the strategies to control and manage all the available resources. If we have total control over the resources, we can easily take more and more projects. Resource management helps us to develop a project with the least number of resources. 4) Effectiveness: The effectiveness measures the quality and the standard. Companies should always look for effectiveness. We need to improve the effectiveness of the code. If it improves, then the company can allocate less number of resources and some or better than our current output. 5) Cut Cost and Quality: This strategy is also called the 'cut corners' strategy. We can cut costs in many ways, but cutting costs is at the cost of the project. It can affect the software economics.",
+      "marks": 4.5,
+      "remark": "Four relevant strategies to improve software economics (Cost Control, Time Management, Resource Management, Effectiveness) were identified and briefly explained. However, the fifth strategy ('Cut Cost and Quality') is generally detrimental in the long run. The critical second part of the question, 'How can team effectiveness be improved in a software project?', was not addressed at all."
+    },
+    {
+      "number": "3.a",
+      "question": "Summarize about inception, elaboration, construction, and transition phases with examples.",
+      "text": "The conventional project life cycle model has four different phases of software development life cycle. These are: 1) Inception 2) Elaboration 3) Construction 4) Transition. 1) Inception: This is the first stage/phase of software development life cycle model. Here the code is interceded with the use of code/intercepted into different ways. The take some of the code and then test/translate the software. 2) Elaboration: This is also called the central/kernel of the phase in the model. Here the already accepted code is taken. 3) Construction: Software model is a process where the code is elaborated and analyzed. In software development, we develop the model and process. We inter-check the software. Software should not be developed perfectly. We construct the model of the developed required work. 4) Transition: This phase is the best for software development. This phase is software complete and makes it the elaboration model. In this phase, the software is handed over to the constructed model. Here we extend the next transition phase over a year.",
+      "marks": 0.0,
+      "remark": "Descriptions of all four phases (Inception, Elaboration, Construction, Transition) are fundamentally incorrect and do not reflect their actual purpose in the RUP/lifecycle model. No relevant examples were provided."
+    },
+    {
+      "number": "3.b",
+      "question": "List kinds of behavioral and object model. Analyze the role of model-based architectures from a technical perspective.",
+      "text": "There are various types of models in software development. Our model-based architectures are one of the most fixed codes, also called codes in technical perspective. These are always preferred because some of the models are used. These models can be accessed and created. These models provide secure access, security for our user/robot. Its security can be seen and used for testing. This makes more deals and efforts. These models can be easily tracked to be perfect, or for security. We use these models to protect our software. Most models are one of the obsolete and are not easy to obey or access or test.",
+      "marks": 0.0,
+      "remark": "The answer completely missed both parts of the question. No specific behavioral or object models were listed, and the analysis of model-based architectures from a technical perspective was superficial and largely irrelevant."
+    },
+    {
+      "number": "5.a",
+      "question": "Classify different types of management indicators, quality indicators. Explain the techniques in project control.",
+      "text": "There are many types of Project Quality Indicators. The indicators are mainly classified into two different types: 1) Management Indicators 2) Quality Indicators. Quality Indicators: These are the types of indicators which are used in software project management. Quality indicators are used to check and control the quality of the software project. The Quality is measured by following various types of tests. These are: 1) Black Box Testing: It is used to check the various types of inputs, and outputs of the software. Some of the different types of testing are: GUI Testing, Stress Testing. 2) White Box Testing: This type of testing is used to test the internal components and internal present code. It is used to test the complexity of the internal code. White box testing ensures that the software is able to work between all the individual elements. 3) Unit Testing: It is used to test the components, or individual code of the program. Unit testing is specially focused on individual parts. 4) Integration Testing: It is used to test the various components of the code, or the code of the project. This testing is specifically focused on individual units. It is primarily used for user testing and defects and flaws. Management Indicators: These indicators are used to manage the project. One of the most widely used management indicators is Lines of Code (LOC). This indicates all the total lines of code, or all the total number of lines the code occupies. Line of Business (LOB): Line of Business type management. This is also one of the management indicators used by businesses. This shows all the functional requirements, resources required. LOB also shows the cost expenses of the project.",
+      "marks": 6.0,
+      "remark": "Good classification and explanation of management and quality indicators, including different types of testing and common metrics like LOC and LOB. However, the answer did not adequately address 'techniques in project control' beyond just listing indicators, leading to a minor deduction."
+    },
+    {
+      "number": "5.b",
+      "question": "What are management indicators in software metrics? Discuss the evolution of project organizations and the role of process automation.",
+      "text": "2) Lines of code. These are some management indicators that help to reduce resources.",
+      "marks": 0.5,
+      "remark": "Only 'Lines of Code' was briefly mentioned as a management indicator, but its description ('help to reduce resources') was inaccurate. The other two main parts of the question, 'evolution of project organizations' and 'role of process automation,' were not addressed."
+    },
+    {
+      "number": "7.a",
+      "question": "What are the challenges and opportunities in future software project management? Explain modern project profiles.",
+      "text": "The challenges of future software project: 1) Cost of skills in the future 2) The availability of resources. The fact is that if we don't have proper guidance, the market and skilled people are difficult to use. Very difficult. So it has positive aspects. We need to project and address the issues.",
+      "marks": 3.0,
+      "remark": "Identified some relevant challenges in future software project management (cost of skills, resource availability, lack of skilled personnel). However, opportunities were not explicitly listed, and 'modern project profiles' was not addressed."
+    },
+    {
+      "number": "7.b",
+      "question": "Assume a organization with modern management methods and explain the next generation software economics.",
+      "text": "If the organization adopts modern management features, then it is more useful. There are several software economics. We need to catch up with the trends and adjust ourselves to predict the time. What causes software economics to be low? If a company starts developing a luxury project at a faster pace, then it is possible that they have a higher chance of capturing a market share. This is the first-mover advantage, to capture the market for selling the software. The current software is to be completely developed and most spent on costs. We should have calculated the costs over time. This completely leads to the current market. Let's take the example of 'Trousers' (or 'Twitter') before launching the project. Who would know that it would become 'Twitter'? It had 40 factors, the market was totally started by few. One factor was people connecting in terms of communication. The 'Bostons' (or 'Blockchain') also started slowly. Other factors automatically automate the entire process. This reduces the cost and expenses for companies and also reduces the errors. As there is less human effort, the errors will also be greatly reduced. AI & ML can be helpful for new trends. Cloud computing is also one of the trends for companies.",
+      "marks": 3.0,
+      "remark": "The answer attempts to explain next-generation software economics by discussing market advantage, cost reduction through automation (AI/ML, cloud computing). However, the explanation is disorganized, includes confusing examples, and lacks a comprehensive understanding of 'next-generation software economics'."
+    }
+  ]
+}
